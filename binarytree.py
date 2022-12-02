@@ -19,15 +19,11 @@ class BinaryNode:
 
 
     def add_left(self, value: Any) -> None:
-        if self.left_child:
-            print('Node już zawiera lewe dziecko.')
-            return
+
         self.left_child = BinaryNode(value)
 
     def add_right(self, value: Any) -> None:
-        if self.right_child:
-            print('Node już zawiera prawe dziecko.')
-            return
+
         self.right_child = BinaryNode(value)
 
     def traverse_in_order(self, visit: Callable[[Any], None]) -> None:
