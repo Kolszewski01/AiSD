@@ -25,11 +25,6 @@ class BinaryNode:
         return self
 
 
-
-
-
-
-
     def __str__(self) -> str:
         return str(self.value)
 
@@ -92,19 +87,6 @@ class BinaryTree:
         self.root = self.__remove(self.root, value)
 
     
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
